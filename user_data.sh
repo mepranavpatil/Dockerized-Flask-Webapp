@@ -9,4 +9,3 @@ systemctl start docker
 systemctl enable docker
 
 sudo su 
-docker login -u pranavpatil2704
