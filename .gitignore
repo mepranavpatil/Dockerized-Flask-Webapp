@@ -74,3 +74,10 @@ temp/
 # =========================
 
 terraform.tfstate.backup
+
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
