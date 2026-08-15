@@ -28,14 +28,14 @@ def version():
     return jsonify({
         "version": "1.0"
     })
-
+ 
 @app.route("/add/<int:a>/<int:b>")
 def add(a, b):
     return jsonify({
         "operation": "addition",
         "result": a + b
     })
-
+ 
 @app.route("/sub/<int:a>/<int:b>")
 def subtract(a, b):
     return jsonify({
